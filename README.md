@@ -10,20 +10,23 @@ A machine learning system that identifies plant leaf anomalies using Computer Vi
 
 ---
 
+### 📂 Project Architecture & Workspace
+
+      ├── Baseline_CNN_Model.ipynb                                        # Trained custom CNN
+      ├── ResNet18_Model.ipynb                                            # Finetuned ResNet18 
+      ├── Streamlit_Code.py                                               # Main Streamlit web application
+      ├── requirements.txt                                                # Python dependencies
+      ├── Plant Disease Detection and Treatment Recommendation.docx       # Comprehensive technical report
+      └── README.md                                                       # Project documentation
+
+---
+
 ### 🛠️ Tech Stack & Key Libraries
 * **Framework:** Streamlit (Frontend & Application State)
 * **Deep Learning:** PyTorch & Torchvision (Model Training, Optimizations, & Visual Inference)
 * **Local Inference Engine:** Ollama (Local Orchestration of LLM Context)
 * **Language Model:** Qwen 2.5 (3B Parameters)
 
----
 
-### 📂 Project Architecture & Workspace
 
-├── Baseline_CNN_Model.ipynb                                        # Trained custom CNN
-├── ResNet18_Model.ipynb                                            # Finetuned ResNet18 
-├── Streamlit_Code.py                                               # Main Streamlit web application
-├── requirements.txt                                                # Python dependencies
-├── Plant Disease Detection and Treatment Recommendation.docx       # Comprehensive technical report
-└── README.md                                                       # Project documentation
 
