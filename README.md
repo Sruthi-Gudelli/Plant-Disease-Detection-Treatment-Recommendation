@@ -19,6 +19,7 @@ A machine learning system that identifies plant leaf anomalies using Computer Vi
 ---
 
 ### 📂 Project Architecture & Workspace
+
 ├── Baseline_CNN_Model.ipynb                                        # Trained custom CNN
 ├── ResNet18_Model.ipynb                                            # Finetuned ResNet18 
 ├── Streamlit_Code.py                                               # Main Streamlit web application
